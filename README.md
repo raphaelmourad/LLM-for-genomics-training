@@ -19,4 +19,21 @@ Data:
 
 ## Pretraining of an LLM on DNA sequences
 
-[Google Colab](https://colab.research.google.com/drive/1gcw_MYiqwB-pbVYHIx8kevx-ZD7sqMxL#scrollTo=JTYKjBrwRSU6).
+Here, we will pretrain an LLM from scratch (a simplified mistral model) on fixed size DNA sequences from the human genome. 
+
+[Script on Google Colab](https://colab.research.google.com/drive/1gcw_MYiqwB-pbVYHIx8kevx-ZD7sqMxL#scrollTo=JTYKjBrwRSU6)
+
+## Finetuning of an LLM for DNA sequence classification
+
+Here, we will use a pretrained LLM and finetuned it for DNA sequence classification. For this purpose, we will use DNA sequences that are labeled as binding a given transcription factors (label=1) or not binding (label=0).
+
+[Script on Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
+
+## Pretraining of an LLM on DNA sequences
+
+
+## Pretraining of an LLM on DNA sequences
+
+
+
+
