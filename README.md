@@ -20,12 +20,14 @@ Data:
 ## Pretraining of an LLM on DNA sequences
 
 Here, we will pretrain an LLM from scratch (a simplified mistral model) on fixed size DNA sequences from the human genome. 
+The LLM is pretrained with causal language modeling using 200b DNA sequences from the human genome hg38 assembly.
 
 [Script on Google Colab](https://colab.research.google.com/drive/1gcw_MYiqwB-pbVYHIx8kevx-ZD7sqMxL#scrollTo=JTYKjBrwRSU6)
 
 ## Finetuning of an LLM for DNA sequence classification
 
-Here, we will use a pretrained LLM and finetuned it for DNA sequence classification. For this purpose, we will use DNA sequences that are labeled as binding a given transcription factors (label=1) or not binding (label=0).
+Here, we will use a pretrained LLM "Mixtral-8x7B-v0.1" and finetuned it for DNA sequence classification. 
+The aim is to classify a DNA sequence depending on if it binds a protein or not (transcription factor), or if a histone mark is present, or if a promoter is active.
 
 [Script on Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
 
