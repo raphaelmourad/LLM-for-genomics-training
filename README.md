@@ -13,7 +13,9 @@ See file:
 
 ## Data to pretrain the model
 
-The data can be found in the file: data/genome_sequences/hg38/sequences_hg38_200b_verysmall.csv.gz 
+The data can be found in the file: 
+data/genome_sequences/hg38/sequences_hg38_200b_verysmall.csv.gz 
+
 The file contains 100,000 non-overlapping DNA sequences of 200 bases, corresponding to around 1% of the human genome.
 
 ## Pretraining of an LLM on DNA sequences
