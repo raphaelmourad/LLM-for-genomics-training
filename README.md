@@ -47,6 +47,10 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 
 [Script on Google Colab](https://colab.research.google.com/drive/1ej879r_AWGjVju74eTUYhCctj-c8IPob#scrollTo=9yi5HmkTxgY5).
 
+### DNA sequence optimization for transcription factor binding
 
+We will use a finetuned LLM for transcription factor binding (Mistral-DNA-v1-1M-hg38-finetuned-tf0 from Mistral-DNA  git). 
+
+[Script on Google Colab](https://colab.research.google.com/drive/1wNLRBwROuZoSiQ6NjcT4VzLIQftP7ERP#scrollTo=rKEzACkjcj7N).
 
 
