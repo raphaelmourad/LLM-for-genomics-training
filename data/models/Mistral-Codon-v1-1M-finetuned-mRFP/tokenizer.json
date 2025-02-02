@@ -1,0 +1,219 @@
+{
+  "version": "1.0",
+  "truncation": {
+    "direction": "Right",
+    "max_length": 100,
+    "strategy": "LongestFirst",
+    "stride": 0
+  },
+  "padding": {
+    "strategy": "BatchLongest",
+    "direction": "Right",
+    "pad_to_multiple_of": null,
+    "pad_id": 64,
+    "pad_type_id": 0,
+    "pad_token": "[EOS]"
+  },
+  "added_tokens": [
+    {
+      "id": 64,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 65,
+      "content": "[CLS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 66,
+      "content": "[SEP]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 67,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 68,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": {
+    "type": "TemplateProcessing",
+    "single": [
+      {
+        "SpecialToken": {
+          "id": "[CLS]",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      },
+      {
+        "SpecialToken": {
+          "id": "[SEP]",
+          "type_id": 0
+        }
+      }
+    ],
+    "pair": [
+      {
+        "SpecialToken": {
+          "id": "[CLS]",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      },
+      {
+        "SpecialToken": {
+          "id": "[SEP]",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "B",
+          "type_id": 1
+        }
+      },
+      {
+        "SpecialToken": {
+          "id": "[SEP]",
+          "type_id": 1
+        }
+      }
+    ],
+    "special_tokens": {
+      "[CLS]": {
+        "id": "[CLS]",
+        "ids": [
+          65
+        ],
+        "tokens": [
+          "[CLS]"
+        ]
+      },
+      "[SEP]": {
+        "id": "[SEP]",
+        "ids": [
+          66
+        ],
+        "tokens": [
+          "[SEP]"
+        ]
+      }
+    }
+  },
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "AAA": 0,
+      "AAT": 1,
+      "AAG": 2,
+      "AAC": 3,
+      "ATA": 4,
+      "ATT": 5,
+      "ATG": 6,
+      "ATC": 7,
+      "AGA": 8,
+      "AGT": 9,
+      "AGG": 10,
+      "AGC": 11,
+      "ACA": 12,
+      "ACT": 13,
+      "ACG": 14,
+      "ACC": 15,
+      "TAA": 16,
+      "TAT": 17,
+      "TAG": 18,
+      "TAC": 19,
+      "TTA": 20,
+      "TTT": 21,
+      "TTG": 22,
+      "TTC": 23,
+      "TGA": 24,
+      "TGT": 25,
+      "TGG": 26,
+      "TGC": 27,
+      "TCA": 28,
+      "TCT": 29,
+      "TCG": 30,
+      "TCC": 31,
+      "GAA": 32,
+      "GAT": 33,
+      "GAG": 34,
+      "GAC": 35,
+      "GTA": 36,
+      "GTT": 37,
+      "GTG": 38,
+      "GTC": 39,
+      "GGA": 40,
+      "GGT": 41,
+      "GGG": 42,
+      "GGC": 43,
+      "GCA": 44,
+      "GCT": 45,
+      "GCG": 46,
+      "GCC": 47,
+      "CAA": 48,
+      "CAT": 49,
+      "CAG": 50,
+      "CAC": 51,
+      "CTA": 52,
+      "CTT": 53,
+      "CTG": 54,
+      "CTC": 55,
+      "CGA": 56,
+      "CGT": 57,
+      "CGG": 58,
+      "CGC": 59,
+      "CCA": 60,
+      "CCT": 61,
+      "CCG": 62,
+      "CCC": 63,
+      "[UNK]": 64,
+      "[CLS]": 65,
+      "[SEP]": 66,
+      "[PAD]": 67,
+      "[MASK]": 68
+    },
+    "unk_token": "[UNK]"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "added_tokens_decoder": {
+    "64": {
+      "content": "[UNK]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "65": {
+      "content": "[CLS]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "66": {
+      "content": "[SEP]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "67": {
+      "content": "[PAD]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "68": {
+      "content": "[MASK]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "clean_up_tokenization_spaces": true,
+  "cls_token": "[CLS]",
+  "mask_token": "[MASK]",
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": "[EOS]",
+  "sep_token": "[SEP]",
+  "tokenizer_class": "PreTrainedTokenizerFast",
+  "unk_token": "[UNK]"
+}
