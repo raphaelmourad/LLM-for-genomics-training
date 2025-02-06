@@ -31,12 +31,16 @@ The LLM is pretrained with causal language modeling using 200b DNA sequences fro
 
 [Video of the tutorial](https://www.youtube.com/watch?v=jY9ieFUM3cw)
 
+[Medium article](https://medium.com/@morphos77/mistral-dna-mistral-model-for-genomics-e800e8349ed4)
+
 ### Finetuning of an LLM for DNA sequence classification
 
 We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMourad/Mistral-DNA-v1-17M-hg38) and finetune it for DNA sequence classification. 
 The aim is to classify a DNA sequence depending on whether it binds a protein or not (transcription factor), or if a histone mark is present, or if a promoter is active.
 
 [Script on Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
+
+[Medium article](https://medium.com/@morphos77/mistral-dna-mistral-model-for-genomics-e800e8349ed4)
 
 ### Zeroshot learning prediction of mutation effect
 
@@ -46,11 +50,15 @@ We expect that the higher the distance, the larger the mutation effect.
 
 [Script on Google Colab](https://colab.research.google.com/drive/1cn_0BBi13Fq2hIFAI9_t9IGmp5O-D2vs#scrollTo=Q_UgR6UsOgPn).
 
+[Medium article](https://medium.com/@raphaeldaroum/how-to-predict-the-impact-of-dna-mutations-with-ai-and-zero-shot-learning-2d0022938e70)
+
 ### Synthetic DNA sequence generation
 
 We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMourad/Mistral-DNA-v1-138M-yeast) to generate artificial yeast DNA sequences.
 
 [Script on Google Colab](https://colab.research.google.com/drive/1ej879r_AWGjVju74eTUYhCctj-c8IPob#scrollTo=9yi5HmkTxgY5).
+
+[Medium article](https://medium.com/@raphaeldaroum/how-to-generate-artificial-dna-sequences-with-an-llm-5da6da031d57)
 
 ### DNA sequence optimization for transcription factor binding
 
