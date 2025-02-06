@@ -40,6 +40,8 @@ The aim is to classify a DNA sequence depending on whether it binds a protein or
 
 [Script on Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
 
+[Video of the tutorial](https://youtu.be/Ohwi8pHlemc?si=lVjwIeKJMJkPZt1l)
+
 [Medium article](https://medium.com/@morphos77/mistral-dna-mistral-model-for-genomics-e800e8349ed4)
 
 ### Zeroshot learning prediction of mutation effect
