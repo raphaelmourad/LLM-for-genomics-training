@@ -1,6 +1,6 @@
 # Training on large language models for genomics
 
-![alt text](https://github.com/raphaelmourad/LLM-for-genomics-training/blob/master/illustration.png)
+![alt text](illustration.png)
 
 ## Overview
 
