@@ -8,8 +8,8 @@ In this repository, we will follow a training for large language models (LLMs) f
 
 ## Lecture notes
 
-The lecture note is in the file:
-- CM_llm_genomics.pdf
+You can download the lecture note [here](CM_llm_genomics.pdf).
+
 
 ## Lab classes
 
