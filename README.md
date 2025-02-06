@@ -25,6 +25,7 @@ We will pretrain an LLM from scratch (a simplified mistral model, see folder dat
 The LLM is pretrained with causal language modeling using 200b DNA sequences from the human genome hg38 assembly.
 
 [Script on Google Colab](https://colab.research.google.com/drive/1gcw_MYiqwB-pbVYHIx8kevx-ZD7sqMxL#scrollTo=JTYKjBrwRSU6)
+
 [Video of the tutorial](https://www.youtube.com/watch?v=jY9ieFUM3cw)
 
 ### Finetuning of an LLM for DNA sequence classification
