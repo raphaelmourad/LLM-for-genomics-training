@@ -1,5 +1,7 @@
 # Training on large language models for genomics
 
+![alt text](https://github.com/raphaelmourad/LLM-for-genomics-training/blob/master/illustration.png)
+
 ## Overview
 
 In this repository, we will follow a training for large language models (LLMs) for genomics. The training comprises a short lecture and several lab classes. 
