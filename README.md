@@ -52,6 +52,8 @@ We expect that the higher the distance, the larger the mutation effect.
 
 [Script on Google Colab](https://colab.research.google.com/drive/1cn_0BBi13Fq2hIFAI9_t9IGmp5O-D2vs#scrollTo=Q_UgR6UsOgPn).
 
+[Video of the tutorial](https://youtu.be/jAAVGINhMBo)
+
 [Medium article](https://medium.com/@raphaeldaroum/how-to-predict-the-impact-of-dna-mutations-with-ai-and-zero-shot-learning-2d0022938e70)
 
 ### Synthetic DNA sequence generation
