@@ -10,6 +10,8 @@ In this repository, we will follow a training for large language models (LLMs) f
 
 You can download the lecture note [here](CM_llm_genomics.pdf).
 
+Video of the lecture: to come soon!
+
 
 ## Lab classes
 
@@ -62,11 +64,15 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 
 [Script on Google Colab](https://colab.research.google.com/drive/1ej879r_AWGjVju74eTUYhCctj-c8IPob#scrollTo=9yi5HmkTxgY5).
 
+Video of the tutorial: to come soon!
+
 [Medium article](https://medium.com/@raphaeldaroum/how-to-generate-artificial-dna-sequences-with-an-llm-5da6da031d57)
 
 ### DNA sequence optimization for transcription factor binding
 
 We will use a finetuned LLM for transcription factor binding (Mistral-DNA-v1-1M-hg38-finetuned-tf0 from Mistral-DNA  git). 
+
+Video of the tutorial: to come soon!
 
 [Script on Google Colab](https://colab.research.google.com/drive/1wNLRBwROuZoSiQ6NjcT4VzLIQftP7ERP#scrollTo=rKEzACkjcj7N).
 
