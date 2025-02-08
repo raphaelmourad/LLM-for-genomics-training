@@ -64,7 +64,7 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 
 [Script on Google Colab](https://colab.research.google.com/drive/1ej879r_AWGjVju74eTUYhCctj-c8IPob#scrollTo=9yi5HmkTxgY5).
 
-Video of the tutorial: to come soon!
+[Video of the tutorial](https://youtu.be/F4v5KdFHrXw)
 
 [Medium article](https://medium.com/@raphaeldaroum/how-to-generate-artificial-dna-sequences-with-an-llm-5da6da031d57)
 
