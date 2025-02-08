@@ -70,7 +70,7 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 
 ### DNA sequence optimization for transcription factor binding
 
-We will use a finetuned LLM for transcription factor binding (Mistral-DNA-v1-1M-hg38-finetuned-tf0 from Mistral-DNA  git). 
+We will use a finetuned LLM for promoter or transcription factor binding. 
 
 [Video of the tutorial](https://youtu.be/7l20tG8vKm8)
 
