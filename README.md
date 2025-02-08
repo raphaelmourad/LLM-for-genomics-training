@@ -68,7 +68,7 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 
 [Medium article](https://medium.com/@raphaeldaroum/how-to-generate-artificial-dna-sequences-with-an-llm-5da6da031d57)
 
-### DNA sequence optimization for transcription factor binding
+### DNA sequence optimization
 
 We will use a finetuned LLM for promoter or transcription factor binding. 
 
