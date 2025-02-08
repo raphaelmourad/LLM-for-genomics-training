@@ -72,8 +72,9 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 
 We will use a finetuned LLM for promoter or transcription factor binding. 
 
+[Script on Google Colab](https://colab.research.google.com/drive/1wNLRBwROuZoSiQ6NjcT4VzLIQftP7ERP#scrollTo=rKEzACkjcj7N).
+
 [Video of the tutorial](https://youtu.be/7l20tG8vKm8)
 
-[Script on Google Colab](https://colab.research.google.com/drive/1wNLRBwROuZoSiQ6NjcT4VzLIQftP7ERP#scrollTo=rKEzACkjcj7N).
 
 
