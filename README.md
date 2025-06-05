@@ -31,6 +31,8 @@ The LLM is pretrained with causal language modeling using 200b DNA sequences fro
 
 [Script on Google Colab](https://colab.research.google.com/drive/1gcw_MYiqwB-pbVYHIx8kevx-ZD7sqMxL#scrollTo=JTYKjBrwRSU6)
 
+[Commented script](https://github.com/galaxyproject/training-material/blob/main/topics/statistics/tutorials/genomic-llm-pretraining/tutorial.md)
+
 [Video of the tutorial](https://www.youtube.com/watch?v=jY9ieFUM3cw)
 
 [Medium article](https://medium.com/@morphos77/mistral-dna-mistral-model-for-genomics-e800e8349ed4)
@@ -40,7 +42,9 @@ The LLM is pretrained with causal language modeling using 200b DNA sequences fro
 We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMourad/Mistral-DNA-v1-17M-hg38) and finetune it for DNA sequence classification. 
 The aim is to classify a DNA sequence depending on whether it binds a protein or not (transcription factor), or if a histone mark is present, or if a promoter is active.
 
-[Script on Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya).
+[Script on Google Colab](https://colab.research.google.com/drive/19AQsrmiCnEfvgHKz7HQ27-vFsHQogrya)
+
+[Commented script](https://github.com/galaxyproject/training-material/blob/main/topics/statistics/tutorials/genomic-llm-finetuning/tutorial.md)
 
 [Video of the tutorial](https://youtu.be/Ohwi8pHlemc?si=lVjwIeKJMJkPZt1l)
 
@@ -52,7 +56,9 @@ We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMou
 Here, we compute the embedding of the wild type sequence and compare it to the embedding of the mutated sequence, and then compute a L2 distance between the two embeddings.
 We expect that the higher the distance, the larger the mutation effect.
 
-[Script on Google Colab](https://colab.research.google.com/drive/1cn_0BBi13Fq2hIFAI9_t9IGmp5O-D2vs#scrollTo=Q_UgR6UsOgPn).
+[Script on Google Colab](https://colab.research.google.com/drive/1cn_0BBi13Fq2hIFAI9_t9IGmp5O-D2vs#scrollTo=Q_UgR6UsOgPn)
+
+[Commented script](https://github.com/galaxyproject/training-material/blob/main/topics/statistics/tutorials/genomic-llm-zeroshot-prediction/tutorial.md)
 
 [Video of the tutorial](https://youtu.be/jAAVGINhMBo)
 
@@ -63,6 +69,8 @@ We expect that the higher the distance, the larger the mutation effect.
 We will use a pretrained LLM from huggingface (https://huggingface.co/RaphaelMourad/Mistral-DNA-v1-138M-yeast) to generate artificial yeast DNA sequences.
 
 [Script on Google Colab](https://colab.research.google.com/drive/1ej879r_AWGjVju74eTUYhCctj-c8IPob#scrollTo=9yi5HmkTxgY5).
+
+[Commented script](https://github.com/galaxyproject/training-material/blob/main/topics/statistics/tutorials/genomic-llm-sequence-generation/tutorial.md)
 
 [Video of the tutorial](https://youtu.be/F4v5KdFHrXw)
 
